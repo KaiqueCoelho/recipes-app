@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#ffd803, #ffd803);
+  color: #272343;
+  display: flex;
+  height: 640px;
+  justify-content: center;
+  margin: 10px;
+  width: 360px;
+}
+
+.recipesContainer {
+  margin-bottom: 65px;
+}
+
+.minHeigth {
+  height: 31px;
+}
+
+.fontSize {
+  color: #272343;
+  font-size: 40px;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+.categorySpan {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+/* img {
+  width: 100px;
+} */
+
+.loginImage {
+  height: 175px;
+  width: 180px;
+}
+
+.card-size {
+  margin-bottom: 10px;
+}
+
+.btn-category {
+  gap: 8px;
+  margin: 8px;
+}
+
+.headerSize {
+  width: 100vw;
+}
+
+header button, footer button, .detailsHeaderBtn {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 50%;
+  height: 80%;
+  width: 40%;
+}
+
+footer {
+  background-color: lightgrey;
+  bottom: 0;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+
+/*
+.container-explorer {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.div-profile img {
+  padding-right: 70px;
+}
+
+.div-lupa {
+  display: flex;
+  justify-content: end;
+}
+
+.container-btn-explore {
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+
+.btnColor {
+  color: #ffd803;
+} */
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  animation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+}
+*/
+
+/* .meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+*/
+
+.detailsImg {
+  object-fit: cover;
+}
+
+.divSize {
+  height: 100vh;
+  width: 100vw;
+}
+
+.recommendedSize {
+  width: 50vw;
+}
+
+.imgWidth {
+  width: 50vw;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.markedIngredient {
+  text-decoration: line-through;
+}
+
+.instructions {
+  width: 350px;
+}
+
+.btnColor {
+  background-color: #eb2749;
+}
+
+.profile-image {
+  margin-top: 100px;
+}
+
+.exploreImg {
+  margin-left: 50px;
+  margin-top: 100px;
+}
